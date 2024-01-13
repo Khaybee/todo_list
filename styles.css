@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background-image {
+    background-image: url('./images/bg-desktop-light.jpg');
+    height: 35vh;
+    width: 100%;
+}
+
+.inner-box {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+}
