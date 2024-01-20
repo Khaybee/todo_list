@@ -6,16 +6,47 @@ body, html {
 body {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1{
+    margin: 0;
+    letter-spacing: 13px;
+    color: white;
+    text-transform: uppercase;
 }
 
 .background-image {
     background-image: url('./images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 35vh;
     width: 100%;
 }
 
-.inner-box {
+.inner-container {
   /* text-align: center; */
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
 }
+
+.inner-box{
+    border: 2px solid black;
+    width: 30%;
+    margin-top: 70px;
+    gap: 20px;
+   
+}
+
+
+.todo-create, .todo-activities{
+    background-color: white;
+    margin-top: 20px;
+   
+}
+
+
+
