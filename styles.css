@@ -76,8 +76,15 @@ h1{
 }
 .delete-Button{
 float: right;
-}
+margin-top: -40px;
+margin-right: 20px;
+display: none;
 
+/* display: flex;
+justify-content: flex-end;
+align-items: flex-end; */
+}
+/* add colour  to the border on the radio button and  when over on the list item display the x */
 .each_activity {
     display: flex;
     gap: 20px;
@@ -85,6 +92,10 @@ float: right;
     align-items: center;
     border-bottom: 1px solid #eee;
 
+}
+
+.each_activity div:hover .delete-Button {
+display:block;
 }
 
 .todo-activities{
@@ -122,3 +133,4 @@ cursor: pointer;
     font-size: 0.7rem;
     color: #939292;
 }
+
