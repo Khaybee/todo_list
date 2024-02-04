@@ -74,6 +74,9 @@ h1{
    margin: 0;
 
 }
+.delete-Button{
+float: right;
+}
 
 .each_activity {
     display: flex;
@@ -108,7 +111,11 @@ h1{
     width: 30%;
     /* text-align: center; */
 }
-
+.inner-menu div:hover,
+.clear-completed:hover {
+color: black;
+cursor: pointer;
+}
 .dragAnddrop {
     text-align: center;
     margin-top: 40px;
