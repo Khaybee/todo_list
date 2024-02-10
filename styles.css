@@ -70,11 +70,17 @@ h1 {
 
 }
 
-input[type="radio"] {
+input[type="radio"] .hovereffect {
     width: 20px;
     height: 20px;
     margin: 0;
+    accent-color: purple;
+    
+}
 
+.overall:hover .hovereffect {
+    
+    accent-color: purple;
 }
 
 .delete-Button {
@@ -142,4 +148,16 @@ input[type="radio"],
     margin-top: 40px;
     font-size: 0.7rem;
     color: #939292;
+}
+
+/* MediaQuery */
+
+/* Mobile View */
+@media screen and (max-width: 500px){
+    .inner-box {
+        width: 80%;
+        margin: auto;
+        gap: 20px; 
+    
+    }
 }
